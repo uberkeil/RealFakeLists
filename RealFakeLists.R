@@ -65,8 +65,6 @@ big_list$email <- #final product, simulated list of email addresses
   rowwise() %>%
   mutate(anonymail = digest(email, algo = "sha1"))
 
-big_list$email
-
 # Simulate Dataset
 
 
